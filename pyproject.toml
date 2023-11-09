@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "coin-converter-v2"
+name = "app"
 version = "0.1.0"
 description = ""
 authors = ["gabrielsrochaa <gabriel.srocha97@gmail.com>"]
 readme = "README.md"
-packages = [{include = "coin_converter_v2"}]
+packages = [{include = "app"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"

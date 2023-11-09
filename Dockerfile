@@ -13,5 +13,5 @@ RUN apt-get update -y && apt-get install curl -y \
 && poetry install \
 && apt-get remove curl -y
 
-COPY ./coin_converter_v2 /coin_converter_v2
-WORKDIR /coin_converter_v2
+COPY ./app /app
+WORKDIR /app
