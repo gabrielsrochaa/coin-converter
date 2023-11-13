@@ -1,2 +1,2 @@
-# coin-converter
-Conversor de moeda utilizando FastAPI e a API da AlphaVantage
+# fastapi-app
+Projeto de API utilizando FastAPI, Docker, SQLAlchemy, PostgreSQL
