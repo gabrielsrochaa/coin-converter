@@ -1,10 +1,8 @@
-import pytest
 from app.db.connection import Session
 
-@pytest.fixture()
-def db_session():
+def get_db_session():
     try:
         session = Session()
-        yield Session
+        yield session
     finally:
         session.close()

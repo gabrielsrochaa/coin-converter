@@ -2,3 +2,4 @@ __pycache__
 teste*
 *.lock
 .env
+.pytest_cache
